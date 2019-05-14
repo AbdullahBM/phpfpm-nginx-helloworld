@@ -147,4 +147,4 @@ Write below command:
 minikube service phpfpm-nginx
 ```
 If it says "403 forbidden" add /hello.php after the address like this:
-#<IP>:<port>/hello.php
+your-IP:your-port/hello.php
