@@ -19,7 +19,7 @@ create a simple php app and name it hello.php
 
 ```
 ###
-# create Dockerfile
+## create Dockerfile
 create a Dockerfile in the same directory to create image of the app
 
 ```
@@ -29,14 +29,14 @@ COPY hello.php /app
 
 ```
 ###
-# Build Docker image
+## Build Docker image
 Build Docker image by running this command (Don't forget to put the dot):
 
 ```sh
 docker build -t my-php-app:1.0.0 .
 ```
 ###
-# create configmap for nginx
+## create configmap for nginx
 Create a yaml file name config.yaml:
 
 ```yaml
@@ -76,7 +76,7 @@ kubectl create -f config.yaml
 ```
 
 ###
-# create deployment
+## create deployment
 create yaml file and name it deployment.yaml:
 
 ```yaml
@@ -135,13 +135,13 @@ create deployment using this command:
 kubectl create -f deployment.yaml
 ```
 ###
-# expose containers via minikube node-port
+## expose containers via minikube node-port
 Write below command:
 ```sh
 kubectl expose deploy phpfpm-nginx --type=NodePort --port=80
 ```
 ###
-# open in browser
+## open in browser
 Write below command:
 ```sh
 minikube service phpfpm-nginx
