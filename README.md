@@ -1,5 +1,5 @@
 # phpfpm-nginx-helloworld on minikube
-This is a guide to running Nginx and PHP-FPM on Kubernetes. You’ll get an overview of each component in the environment, plus complete source code for running an application using PHP-FPM and Nginx on Kubernetes. This app is containerized and scaleable. It is also set to auto-scale.
+This is a guide to running Nginx and PHP-FPM on Kubernetes taken from @matthewpalmer. You’ll get an overview of each component in the environment, plus complete source code for running an application using PHP-FPM and Nginx on Kubernetes. This app is containerized and scaleable.
 
 ###
 ## create simple hello world php app
