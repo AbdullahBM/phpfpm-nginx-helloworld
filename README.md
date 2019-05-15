@@ -146,5 +146,5 @@ Write below command:
 ```sh
 minikube service phpfpm-nginx
 ```
-If it says "403 forbidden" add /hello.php after the address like this:
-### IP:port/hello.php
+Your app would now be opened in browser. If it says "403 forbidden", add /hello.php after the address like this:
+#### [IP]:[port]/hello.php
